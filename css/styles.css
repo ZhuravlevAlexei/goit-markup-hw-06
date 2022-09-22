@@ -554,8 +554,8 @@ address {
 
 .footer-common {
   display: flex;
+  justify-content: space-between;
   align-items: baseline;
-  gap: 70px;
 }
 
 .footer-addr {
@@ -629,6 +629,7 @@ address {
 .subscribe-form-input {
   width: 358px;
   height: 50px;
+  padding-left: 18px;
   font-size: 16px;
   color: var(--light-txt-color);
   line-height: calc(20 / 16);
